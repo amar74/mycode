@@ -1,0 +1,28 @@
+
+a:hover{
+	text-decoration:none;
+}
+.hed{
+	font-size:42px;
+	font-weight:400;
+	text-transform:uppercase;
+	margin-top:-20px;
+}
+
+.buton{
+	 background:green; 
+	 border:1px solid green; 
+	 float:right; 
+	 color:#fff;
+	 border-radius:7px;
+	
+}
+.buton:hover{
+	background:transparent;
+	color:#333 !important;
+}
+.proj_img{
+	width:100%; 
+	height:450px; 
+	margin:auto;
+}

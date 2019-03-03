@@ -1,0 +1,26 @@
+.hed{
+	font-size:42px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin-top:-20px;
+}
+
+.bottom-spac{
+	padding-bottom:20px;
+}
+.title2{
+	font-size:50px;
+	color:#f77700;
+	text-transform:uppercase;
+	margin-top:-40px;
+}
+
+@media only screen and (max-width:768px){
+	.column{
+		width:50%;
+		float:left;
+	}
+	.row > .column{
+		padding:0 20px;
+	}
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Homeloan Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+		.label-div{
+			width:; 
+			height:auto; 
+			margin:left; 
+			padding-top:0px;
+		}
+	.labels{
+		font-size:16px; 
+		font-weight:200;
+	}
+	.label-div2{
+		width:80%; 
+		height:auto; 
+		margin:left; 
+		padding:20px 5px 5px 10px;
+	}
+  </style>
+</head>
+<body>
+
+<div class="container" style="background:url('images/demo/backgrounds/loan2.png') no-repeat; background-size:100% 1000px; width:100%;">
+  
+    <div class="modal-dialog " >
+      <div class="modal-content" style="height:auto;">
+        <div class="modal-header">
+          <a href="index.html"><button type="button" class="close" >&times;</button></a>
+          <h3 class="modal-title" style="text-align:center;">Apply for homeloan</h3>
+        </div>
+        <div class="modal-body" >
+          <form class="" id="home_loan" method="post" action="mail.php">
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Name</label>
+					<input type="text" name="fname" placeholder="First Name" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					<label style="color:#fff;">Last Name</label>
+					<input type="text" name="lname" placeholder="Last Name" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Birth Date</label>
+					<input type="date" name="dob" placeholder="DD/MM/YYYY" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					<label style="">Phone Number</label>
+					<input type="number" name="phone" placeholder="Phone number" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Address</label>
+					<input type="text" name="address" placeholder="Address" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					<label style="color:#fff;">City</label>
+					<input type="text" name="city" placeholder="City" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					
+					<input type="text" name="pincode" placeholder="Postal Code" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					
+					<input type="text" name="country" placeholder="Country" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Email</label>
+					<input type="email" name="email" placeholder="Email Address" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					<label >City of Property</label>
+					<input type="text" name="propertycity" placeholder="Property City" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Desired Loan Amount</label>
+					<input type="number" name="loan_amount" placeholder="Loan Amount in Lacs" class="form-control" style="width:90%; margin:left;">
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 form-group label-div" >
+					<label>Occupation Type</label>
+					<select class="form-control" name="occupation" style="width:90%; margin:left;">
+						<option value="">Occupation Type</option>
+						<option value="salaried">Salaried</option>
+						<option value="self employed professional">Self Employed Professional</option>
+						<option value="self employed non professional">Self Employed Non Professional</option>
+					</select>
+				</div>
+				<div class="col-md-6 form-group label-div" style="padding-left:0 !important;">
+					<label >Annual Income</label>
+					<input type="number" name="income" placeholder="Annual Income" class="form-control" style="width:90%; margin:left;">
+				</div>
+			</div>
+			
+			<div class="row" >
+				<div class="col-md-12" style="paddin-left:20px;">
+					<input type="submit" class="btn btn-info btn-lg" name="submit-form" value="Apply Now">
+					<br><br>
+				</div>
+			</div>
+		  </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
